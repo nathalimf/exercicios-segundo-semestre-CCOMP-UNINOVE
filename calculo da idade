@@ -3,11 +3,11 @@
 int main()
 {
     int anonascimento, idade;
-    
-    printf("Insira o seu ano de nascimento com 4 dígitos: ");
+
+    printf("Insira o seu ano de nascimento com *4 dígitos*: ");
     scanf("%d", &anonascimento);
-    
-   if (anonascimento > 2024){
+
+   if (anonascimento > 2024 || anonascimento <= 999){
        printf("A data de nascimento não é valida.");
    } else {
        idade = 2024 - anonascimento;
@@ -16,4 +16,3 @@ int main()
 
 return 0;
 }
-
