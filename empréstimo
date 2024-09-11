@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    double salario, prestacao, limite;
+    
+    printf("Insira o valor do seu salário: ");
+    scanf("%lf", &salario);
+    printf("Insira o valor da sua prestação: ");
+    scanf("%lf", &prestacao);
+    
+    limite = salario * 0.3;
+    
+    if (prestacao >= limite){
+        printf("Não é possível realizar o empréstimo");
+    } else {
+        printf("Será possível realizar o empréstimo.");
+    }
+       
+  return 0;
+}
