@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+  int main(){
+    float area_triangulo, area_retangulo;
+    float base, h;
+    printf("Informe o valor da base (b) do triângulo: ");
+    scanf("%f", &base);
+    printf("Informe agora o valor da altura (h) do triângulo: ");
+    scanf("%f", &h);
+      area_triangulo = (base * h) / 2;
+    printf("A área do triâgulo é %.2f\n", area_triangulo);
+  
+      printf("\nAgora vamos calcular a área do retângulo!\n");
+  
+    printf("\nPor favor, informe o valor da base (b) do retângulo: ");
+    scanf("%f", &base);
+    printf("Informe o valor da altura (h) do retângulo: ");
+    scanf("%f", &h);
+      area_retangulo = base * h;
+    printf("A área do retângulo é %.2f\n", area_retangulo);
+  
+return 0;
